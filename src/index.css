@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #0f172a;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 450px;
+  gap: 3px;
+}
+
+.bar {
+  width: 8px;
+  background: #38bdf8;
+  transition: height 0.15s ease;
+}
+
+.compare {
+  background: orange;
+}
+
+.swap {
+  background: red;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.pivot {
+  background: purple !important;
+}
